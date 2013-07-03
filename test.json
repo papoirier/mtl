@@ -1,16 +1,28 @@
 {
-    "stay": {
-        "title": "Where to stay",
-        "neighbourhoods": [
-            {
-                    "name": "Plateau-Mont-Royal",
-                    "about": "Some text about the neighbourhood."
-            },
-            {
-                    "name": "Plateau-Mont-Royal",
-                    "about": "Some text about the neighbourhood."
-                }
-        ]
-    }
+   "pied": {
+       "name": "Au pied de cochon",
+		"hood": "Plateau-Mont-Royal",
+       "moment": "dinner",
+       "notes": [
+           "Imagine French cuisine from 400 years ago, but more indulgent and less refined in a great way.",
+			 "They also have a <em>cabane à sucre</em> (sugar shack).",
+			 "Quite pricey."
+       ],
+		"website": "http://restaurantaupieddecochon.ca",
+		"telephone": "+1 514 281 1114",
+		"address": "536 rue Duluth Est"
+   },
+   "chasse": {
+       "name": "Club Chasse et pêche",
+		"hood": "Vieux-Montréal",
+       "moment": "dinner",
+       "notes": [
+           "never been"
+       ],
+		"website": "http://leclubchasseetpeche.com",
+		"telephone": "+1 514 861 1112",
+		"address": "423, rue Saint-Claude"
+   }
+    
 }
 
