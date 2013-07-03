@@ -12,6 +12,27 @@
             "mileend": {
                 "name": "Mile-End",
                 "about": [
+                    "The \"artist\" neighbourhood, in many ways, since the city maintains rents low-ish and reserves spaces and building even for artists to stay and keep their studios there.",
+                    "Some more text about the neighbourhood."
+                ]
+            },
+            "italie": {
+                "name": "Petite Italie",
+                "about": [
+                    "Some text about the neighbourhood.",
+                    "Some more text about the neighbourhood."
+                ]
+            },
+            "henri": {
+                "name": "Saint-Henri / Petite Bourgogne",
+                "about": [
+                    "Some text about the neighbourhood.",
+                    "Some more text about the neighbourhood."
+                ]
+            },
+            "vieux": {
+                "name": "Vieux-Montréal (Old Town)",
+                "about": [
                     "Some text about the neighbourhood.",
                     "Some more text about the neighbourhood."
                 ]
@@ -23,7 +44,10 @@
         "cuisines": {
             "quebec": {
                 "name": "Québec",
-                "about": "Some text about the type of cuisine or something.",
+                "about": [
+						 "Imagine French cuisine from 400 years ago, but more indulgent and less refined.",
+						 "It's good."
+				 		],
                 "restaurants": {
                     "olive": {
                         "name": "Olive et Gourmando",

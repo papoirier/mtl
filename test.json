@@ -1,0 +1,16 @@
+{
+    "stay": {
+        "title": "Where to stay",
+        "neighbourhoods": [
+            {
+                    "name": "Plateau-Mont-Royal",
+                    "about": "Some text about the neighbourhood."
+            },
+            {
+                    "name": "Plateau-Mont-Royal",
+                    "about": "Some text about the neighbourhood."
+                }
+        ]
+    }
+}
+
