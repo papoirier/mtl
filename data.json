@@ -1,33 +1,46 @@
 {
-	"stay": {
-		"title": "Where to stay",
-      "neighbourhood": {
-			"plateau": {
-				"name": "Plateau-Mont-Royal",
-				"about": "Some text about the neighbourhood.",
-			},
-			"mileend": {
-				"name": "Mile-End",
-				"about": "Some text about the neighbourhood.",
-			},
-			"mileend": {
-				"name": "Mile-End",
-				"about": "Some text about the neighbourhood.",
-			}
-      }
-
-	},
-	"food": {
-		"title": "What to eat",
-		"cuisines": {
-			"quebec": {
-				"name": "Québec",
-				"about": "Some text about the type of cuisine or something."
-				
-			},
-		}
-	},
-	"places": {
-		
-	}
+    "stay": {
+        "title": "Where to stay",
+        "neighbourhood": {
+            "plateau": {
+                "name": "Plateau-Mont-Royal",
+                "about": "Some text about the neighbourhood."
+            },
+            "mileend": {
+                "name": "Mile-End",
+                "about": "Some text about the neighbourhood."
+            }
+        }
+    },
+    "food": {
+        "title": "What to eat",
+        "cuisines": {
+            "quebec": {
+                "name": "Québec",
+                "about": "Some text about the type of cuisine or something.",
+                "restaurants": {
+                    "olive": {
+                        "name": "Olive et Gourmando",
+                        "website": "http://www.oliveetgourmando.com",
+                        "moment": "Breakfast",
+                        "hood": "Old Town",
+                        "notes": [
+                            "A great place for breakfast",
+                            "Closed on Sunday and Monday"
+                        ]
+                    },
+                    "aupied": {
+                        "name": "Au pied de cochon",
+                        "website": "http://www.restaurantaupieddecochon.ca",
+                        "moment": "Dinner",
+                        "hood": "Plateau-Mont-Royal",
+                        "notes": [
+                            "Indulgent as hell, busy as fuck. Reserve way in advance."
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "places": {}
 }
