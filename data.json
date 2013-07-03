@@ -1,14 +1,20 @@
 {
     "stay": {
         "title": "Where to stay",
-        "neighbourhood": {
+        "neighbourhoods": {
             "plateau": {
                 "name": "Plateau-Mont-Royal",
-                "about": "Some text about the neighbourhood."
+                "about": [
+                    "Some text about the neighbourhood.",
+                    "Some more text about the neighbourhood."
+                ]
             },
             "mileend": {
                 "name": "Mile-End",
-                "about": "Some text about the neighbourhood."
+                "about": [
+                    "Some text about the neighbourhood.",
+                    "Some more text about the neighbourhood."
+                ]
             }
         }
     },
@@ -36,6 +42,37 @@
                         "hood": "Plateau-Mont-Royal",
                         "notes": [
                             "Indulgent as hell, busy as fuck. Reserve way in advance."
+                        ]
+                    }
+                }
+            },
+            "portugal": {
+                "name": "Portugal",
+                "about": "Some text about the type of cuisine or something.",
+                "restaurants": {
+                    "romados": {
+                        "name": "Romados",
+                        "website": "http://www.oliveetgourmando.com",
+                        "moment": "Breakfast",
+                        "hood": "Old Town",
+                        "notes": [
+                            "A great place for breakfast",
+                            "Closed on Sunday and Monday"
+                        ]
+                    }
+                }
+            },
+            "cafe": {
+                "name": "Cafés",
+                "about": "Some text about the type of cuisine or something.",
+                "restaurants": {
+                    "italia": {
+                        "name": "Caffè Italia",
+                        "website": "",
+                        "moment": "Anytime",
+                        "hood": "Petite Italie",
+                        "notes": [
+                            "They serve a mean espresso that will wake you up like never before."
                         ]
                     }
                 }
