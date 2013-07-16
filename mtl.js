@@ -53,10 +53,10 @@ $(document).ready(function() {
 		$("#food > .title > div > h1").html(data.food.title);
 		
 		// Québec ------------------------------------------------------------------------------------------------------------------------
-		$("#food > .cuisines").append("<div class=\"quebec\">" + "<div class=\"row\">" + "<div class=\"span12\">");
+		$("#food > .cuisines > .quebec").append("<div class=\"row\">" + "<div class=\"span12\">");
 		$("#food > .cuisines > .quebec > .row > .span12").append("<h3>" + data.food.cuisines.quebec.name);
 		for (var i = 0; i < data.food.cuisines.quebec.about.length; i++) {
-			$("#food > .cuisines > .quebec > .row > .span12").append("<p>" + data.food.cuisines.quebec.about[i]);
+			$("#food > .cuisines > .quebec > .row > .span12").append("<h5>" + data.food.cuisines.quebec.about[i]);
 		};
 		
 		$("#food > .cuisines > .quebec").append("<div class=\"row first\">");
@@ -126,40 +126,64 @@ $(document).ready(function() {
 			$("#food > .cuisines > .quebec > .second > .foodlab").append(ulContact);
 				$("#food > .cuisines > .quebec > .second > .foodlab > ul.contact").append("<li><a href=\"" + data.food.cuisines.quebec.restaurants.foodlab.website + "\">" + data.food.cuisines.quebec.restaurants.foodlab.website);
 				$("#food > .cuisines > .quebec > .second > .foodlab > ul.contact").append("<li>" + data.food.cuisines.quebec.restaurants.foodlab.telephone);
-				$("#food > .cuisines > .quebec > .second > .foodlab > ul.contact").append("<li>" + data.food.cuisines.quebec.restaurants.foodlab.address);
-		/*
-			// Au pied de cochon
-			$("#food > .cuisines > .quebec > .second ").append("<div class=\"pied " + span + "\">");
-			$("#food > .cuisines > .quebec > .second > .pied").append("<h4>" + data.food.cuisines.quebec.restaurants.pied.name);
-			$("#food > .cuisines > .quebec > .second > .pied").append("<p>" + hood + data.food.cuisines.quebec.restaurants.pied.hood);
-			$("#food > .cuisines > .quebec > .second > .pied").append("<p>" + moment + data.food.cuisines.quebec.restaurants.pied.moment);
-			$("#food > .cuisines > .quebec > .second > .pied").append(ulNotes);
-			for (var i = 0; i < data.food.cuisines.quebec.restaurants.pied.notes.length; i++) {
-				$("#food > .cuisines > .quebec > .second > .pied > ul.notes").append("<li>" + data.food.cuisines.quebec.restaurants.pied.notes[i]);
-			};
-			$("#food > .cuisines > .quebec > .second > .pied").append(ulContact);
-				$("#food > .cuisines > .quebec > .second > .pied > ul.contact").append("<li><a href=\"" + data.food.cuisines.quebec.restaurants.pied.website + "\">" + data.food.cuisines.quebec.restaurants.pied.website);
-				$("#food > .cuisines > .quebec > .second > .pied > ul.contact").append("<li>" + data.food.cuisines.quebec.restaurants.pied.telephone);
-				$("#food > .cuisines > .quebec > .second > .pied > ul.contact").append("<li>" + data.food.cuisines.quebec.restaurants.pied.address);
-			// Club chasse et pêche
-			$("#food > .cuisines > .quebec > .second ").append("<div class=\"chasse " + span + "\">");
-			$("#food > .cuisines > .quebec > .second > .chasse").append("<h4>" + data.food.cuisines.quebec.restaurants.chasse.name);
-			$("#food > .cuisines > .quebec > .second > .chasse").append("<p>" + hood + data.food.cuisines.quebec.restaurants.chasse.hood);
-			$("#food > .cuisines > .quebec > .second > .chasse").append("<p>" + moment + data.food.cuisines.quebec.restaurants.chasse.moment);
-			$("#food > .cuisines > .quebec > .second > .chasse").append(ulNotes);
-			for (var i = 0; i < data.food.cuisines.quebec.restaurants.chasse.notes.length; i++) {
-				$("#food > .cuisines > .quebec > .second > .chasse > ul.notes").append("<li>" + data.food.cuisines.quebec.restaurants.chasse.notes[i]);
-			};
-			$("#food > .cuisines > .quebec > .second > .chasse").append(ulContact);
-				$("#food > .cuisines > .quebec > .second > .chasse > ul.contact").append("<li><a href=\"" + data.food.cuisines.quebec.restaurants.chasse.website + "\">" + data.food.cuisines.quebec.restaurants.chasse.website);
-				$("#food > .cuisines > .quebec > .second > .chasse > ul.contact").append("<li>" + data.food.cuisines.quebec.restaurants.chasse.telephone);
-				$("#food > .cuisines > .quebec > .second > .chasse > ul.contact").append("<li>" + data.food.cuisines.quebec.restaurants.chasse.address);
-		*/
-		
+				$("#food > .cuisines > .quebec > .second > .foodlab > ul.contact").append("<li>" + data.food.cuisines.quebec.restaurants.foodlab.address);			
 			
-			
-		// Portugal ------------------------------------------------------------------------------------------------------------------------
+		// Poutine ------------------------------------------------------------------------------------------------------------------------
+		$("#food > .cuisines > .poutine").append("<div class=\"row\">" + "<div class=\"span12\">");
+		$("#food > .cuisines > .poutine > .row > .span12").append("<h3>" + data.food.cuisines.poutine.name);
+		for (var i = 0; i < data.food.cuisines.poutine.about.length; i++) {
+			$("#food > .cuisines > .poutine > .row > .span12").append("<h5>" + data.food.cuisines.poutine.about[i]);
+		};
 		
+		$("#food > .cuisines > .poutine").append("<div class=\"row first\">");
+			// La Banquise
+			$("#food > .cuisines > .poutine > .first ").append("<div class=\"banquise " + span + "\">");
+			$("#food > .cuisines > .poutine > .first > .banquise").append("<h4>" + data.food.cuisines.poutine.restaurants.banquise.name);
+			$("#food > .cuisines > .poutine > .first > .banquise").append("<p>" + hood + data.food.cuisines.poutine.restaurants.banquise.hood);
+			$("#food > .cuisines > .poutine > .first > .banquise").append("<p>" + moment + data.food.cuisines.poutine.restaurants.banquise.moment);
+			$("#food > .cuisines > .poutine > .first > .banquise").append(ulNotes);
+			for (var i = 0; i < data.food.cuisines.poutine.restaurants.banquise.notes.length; i++) {
+				$("#food > .cuisines > .poutine > .first > .banquise > ul.notes").append("<li>" + data.food.cuisines.poutine.restaurants.banquise.notes[i]);
+			};
+			$("#food > .cuisines > .poutine > .first > .banquise").append(ulContact);
+				$("#food > .cuisines > .poutine > .first > .banquise > ul.contact").append("<li><a href=\"" + data.food.cuisines.poutine.restaurants.banquise.website + "\">" + data.food.cuisines.poutine.restaurants.banquise.website);
+				$("#food > .cuisines > .poutine > .first > .banquise > ul.contact").append("<li>" + data.food.cuisines.poutine.restaurants.banquise.telephone);
+				$("#food > .cuisines > .poutine > .first > .banquise > ul.contact").append("<li>" + data.food.cuisines.poutine.restaurants.banquise.address);
+				
+		// France ------------------------------------------------------------------------------------------------------------------------
+		$("#food > .cuisines > .france").append("<div class=\"row\">" + "<div class=\"span12\">");
+		$("#food > .cuisines > .france > .row > .span12").append("<h3>" + data.food.cuisines.france.name);
+		for (var i = 0; i < data.food.cuisines.france.about.length; i++) {
+			$("#food > .cuisines > .france > .row > .span12").append("<h5>" + data.food.cuisines.france.about[i]);
+		};
+
+		$("#food > .cuisines > .france").append("<div class=\"row first\">");
+			// L'Express
+			$("#food > .cuisines > .france > .first ").append("<div class=\"express " + span + "\">");
+			$("#food > .cuisines > .france > .first > .express").append("<h4>" + data.food.cuisines.france.restaurants.express.name);
+			$("#food > .cuisines > .france > .first > .express").append("<p>" + hood + data.food.cuisines.france.restaurants.express.hood);
+			$("#food > .cuisines > .france > .first > .express").append("<p>" + moment + data.food.cuisines.france.restaurants.express.moment);
+			$("#food > .cuisines > .france > .first > .express").append(ulNotes);
+			for (var i = 0; i < data.food.cuisines.france.restaurants.express.notes.length; i++) {
+				$("#food > .cuisines > .france > .first > .express > ul.notes").append("<li>" + data.food.cuisines.france.restaurants.express.notes[i]);
+			};
+			$("#food > .cuisines > .france > .first > .express").append(ulContact);
+				$("#food > .cuisines > .france > .first > .express > ul.contact").append("<li><a href=\"" + data.food.cuisines.france.restaurants.express.website + "\">" + data.food.cuisines.france.restaurants.express.website);
+				$("#food > .cuisines > .france > .first > .express > ul.contact").append("<li>" + data.food.cuisines.france.restaurants.express.telephone);
+				$("#food > .cuisines > .france > .first > .express > ul.contact").append("<li>" + data.food.cuisines.france.restaurants.express.address);
+			// Leméac
+			$("#food > .cuisines > .france > .first ").append("<div class=\"lemeac " + span + "\">");
+			$("#food > .cuisines > .france > .first > .lemeac").append("<h4>" + data.food.cuisines.france.restaurants.lemeac.name);
+			$("#food > .cuisines > .france > .first > .lemeac").append("<p>" + hood + data.food.cuisines.france.restaurants.lemeac.hood);
+			$("#food > .cuisines > .france > .first > .lemeac").append("<p>" + moment + data.food.cuisines.france.restaurants.lemeac.moment);
+			$("#food > .cuisines > .france > .first > .lemeac").append(ulNotes);
+			for (var i = 0; i < data.food.cuisines.france.restaurants.lemeac.notes.length; i++) {
+				$("#food > .cuisines > .france > .first > .lemeac > ul.notes").append("<li>" + data.food.cuisines.france.restaurants.lemeac.notes[i]);
+			};
+			$("#food > .cuisines > .france > .first > .lemeac").append(ulContact);
+				$("#food > .cuisines > .france > .first > .lemeac > ul.contact").append("<li><a href=\"" + data.food.cuisines.france.restaurants.lemeac.website + "\">" + data.food.cuisines.france.restaurants.lemeac.website);
+				$("#food > .cuisines > .france > .first > .lemeac > ul.contact").append("<li>" + data.food.cuisines.france.restaurants.lemeac.telephone);
+				$("#food > .cuisines > .france > .first > .lemeac > ul.contact").append("<li>" + data.food.cuisines.france.restaurants.lemeac.address);
 		
 	});
 });

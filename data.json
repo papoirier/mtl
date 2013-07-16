@@ -68,7 +68,7 @@
                         "notes": [
 									 "My most favorite breakfast place in the world."
                         ],
-								"website": "",
+								"website": "http://bageletc.ca",
 								"telephone": "+1 514 845 9462",
 								"address": "4320, boul. Saint-Laurent"
                     },
@@ -79,7 +79,7 @@
                         "notes": [
 									 "The best bagels in the world. Has nothing to do with American bagels. You can get cream cheese and/or salmon mousse to eat with it. I usually eat one raw before starting putting condiments on them."
                         ],
-								"website": "",
+								"website": "http://stviateurbagel.com",
 								"telephone": "+1 514 845 9462",
 								"address": "4320, boul. Saint-Laurent"
                     },
@@ -101,39 +101,58 @@
                         "notes": [
 									 "Menu changes every 2 weeks."
                         ],
-								"website": "http://schwartzsdeli.com",
-								"telephone": "+1 514 842 4813",
-								"address": "3895, boul. Saint-Laurent"
+								"website": "http://sat.qc.ca/fr/foodlab",
+								"telephone": "+1 514 844 2033",
+								"address": "1201, boul. Saint-Laurent"
                     }
                 }
             },
-            "portugal": {
-                "name": "Portugal",
-                "about": "Some text about the type of cuisine or something.",
+            "poutine": {
+                "name": "Poutine (<em>québécois</em> delicacy)",
+                "about": [
+						 "Fries + gravy + cheese curds"
+				 	],
                 "restaurants": {
-                    "romados": {
-                        "name": "Romados",
-                        "website": "http://www.oliveetgourmando.com",
-                        "moment": "Breakfast",
-                        "hood": "Old Town",
+                    "banquise": {
+                        "name": "La Banquise",
+								"hood": "Plateau-Mont-Royal",
+                        "moment": "preferably when drunk or hungover",
                         "notes": [
-                            "Imagine French cuisine from 400 years ago, but more indulgent and less refined in a great way."
-                        ]
+                            "The most diverse."
+                        ],
+								"website": "http://restolabanquise.com",
+								"telephone": "+1 514 525 2415",
+								"address": "994, rue Rachel Est"
                     }
                 }
             },
-            "cafe": {
-                "name": "Cafés",
-                "about": "Some text about the type of cuisine or something.",
+            "france": {
+                "name": "French",
+                "about": [
+						 "Oui oui oui."
+				 	],
                 "restaurants": {
-                    "italia": {
-                        "name": "Caffè Italia",
-                        "website": "",
-                        "moment": "Anytime",
-                        "hood": "Petite Italie",
+                    "express": {
+                        "name": "L&rsquo;Express",
+								"hood": "Plateau-Mont-Royal",
+                        "moment": "dinner",
                         "notes": [
-                            "They serve a mean espresso that will wake you up like never before."
-                        ]
+                            "Typical French bistrot. Absolutely have to taste the bone marrow."
+                        ],
+								"website": "http://restaurantlexpress.ca",
+								"telephone": "+1 514 845 5333",
+								"address": "3927, rue Saint-Denis"
+                    },
+                    "lemeac": {
+                        "name": "Leméac",
+								"hood": "Plateau-Mont-Royal",
+                        "moment": "dinner",
+                        "notes": [
+                            "Becomes cheap after 10 PM."
+                        ],
+								"website": "http://restaurantlemeac.com",
+								"telephone": "+1 514 270 0999",
+								"address": "1045, rue Laurier Ouest"
                     }
                 }
             }
