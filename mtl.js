@@ -13,12 +13,13 @@ $(document).ready(function() {
 			$("#eat > .cuisines > .first > .block" + i).append("<h5>" + data.cuisines.quebec[i].name);
 			$("#eat > .cuisines > .first > .block" + i).append("<p>" + data.cuisines.quebec[i].hood);
 			$("#eat > .cuisines > .first > .block" + i).append("<p>" + data.cuisines.quebec[i].moment);
-			$("#eat > .cuisines > .first > .block" + i).append("<p><a href=\"" + data.cuisines.quebec[i].url.link + "\">" + data.cuisines.quebec[i].url.text);
-			$("#eat > .cuisines > .first > .block" + i).append("<p><a href=\"" + data.cuisines.quebec[i].address.link + "\">" + data.cuisines.quebec[i].address.text);
-			$("#eat > .cuisines > .first > .block" + i).append("<p>" + data.cuisines.quebec[i].phone);
 			for (var j = 0; j < data.cuisines.quebec[i].notes.length; j++) {
 				$("#eat > .cuisines > .first > .block" + i).append("<p>" + data.cuisines.quebec[i].notes[j]);
 			}
+			$("#eat > .cuisines > .first > .block" + i).append("<ul>");
+			$("#eat > .cuisines > .first > .block" + i + " > ul").append("<li><a href=\"" + data.cuisines.quebec[i].url.link + "\">" + data.cuisines.quebec[i].url.text);
+			$("#eat > .cuisines > .first > .block" + i + " > ul").append("<li><a href=\"" + data.cuisines.quebec[i].address.link + "\">" + data.cuisines.quebec[i].address.text);
+			$("#eat > .cuisines > .first > .block" + i + " > ul").append("<li>" + data.cuisines.quebec[i].phone);
 		};
 		
 		$("#eat > .cuisines").append("<div class=\"row second\">");
@@ -27,12 +28,13 @@ $(document).ready(function() {
 			$("#eat > .cuisines > .second > .block" + i).append("<h5>" + data.cuisines.quebec[i].name);
 			$("#eat > .cuisines > .second > .block" + i).append("<p>" + data.cuisines.quebec[i].hood);
 			$("#eat > .cuisines > .second > .block" + i).append("<p>" + data.cuisines.quebec[i].moment);
-			$("#eat > .cuisines > .second > .block" + i).append("<p><a href=\"" + data.cuisines.quebec[i].url.link + "\">" + data.cuisines.quebec[i].url.text);
-			$("#eat > .cuisines > .second > .block" + i).append("<p><a href=\"" + data.cuisines.quebec[i].address.link + "\">" + data.cuisines.quebec[i].address.text);
-			$("#eat > .cuisines > .second > .block" + i).append("<p>" + data.cuisines.quebec[i].phone);
 			for (var j = 0; j < data.cuisines.quebec[i].notes.length; j++) {
 				$("#eat > .cuisines > .second > .block" + i).append("<p>" + data.cuisines.quebec[i].notes[j]);
 			}
+			$("#eat > .cuisines > .second > .block" + i).append("<ul>");
+			$("#eat > .cuisines > .second > .block" + i + " > ul").append("<li><a href=\"" + data.cuisines.quebec[i].url.link + "\">" + data.cuisines.quebec[i].url.text);
+			$("#eat > .cuisines > .second > .block" + i + " > ul").append("<li><a href=\"" + data.cuisines.quebec[i].address.link + "\">" + data.cuisines.quebec[i].address.text);
+			$("#eat > .cuisines > .second > .block" + i + " > ul").append("<li>" + data.cuisines.quebec[i].phone);
 		};
 		
 		/*
