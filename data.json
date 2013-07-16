@@ -1,162 +1,61 @@
 {
-    "stay": {
-        "title": "Where to stay",
-        "neighbourhoods": {
-            "plateau": {
-                "name": "Plateau-Mont-Royal",
-                "about": [
-                    "Some text about the neighbourhood.",
-                    "Some more text about the neighbourhood."
-                ]
-            },
-            "mileend": {
-                "name": "Mile-End",
-                "about": [
-                    "The \"artist\" neighbourhood, in many ways, since the city maintains rents low-ish and reserves spaces and building even for artists to stay and keep their studios there.",
-                    "Some more text about the neighbourhood."
-                ]
-            },
-            "italie": {
-                "name": "Petite Italie",
-                "about": [
-                    "Some text about the neighbourhood.",
-                    "Some more text about the neighbourhood."
-                ]
-            },
-            "henri": {
-                "name": "Saint-Henri / Petite Bourgogne",
-                "about": [
-                    "Some text about the neighbourhood.",
-                    "Some more text about the neighbourhood."
-                ]
-            },
-            "vieux": {
-                "name": "Vieux-Montréal (Old Town)",
-                "about": [
-                    "Some text about the neighbourhood.",
-                    "Some more text about the neighbourhood."
-                ]
-            }
-        }
-    },
-    "food": {
-        "title": "Where to eat",
-        "cuisines": {
-            "quebec": {
-                "name": "Québec",
-                "about": [
-						 "Imagine French cuisine from 400 years ago, but more indulgent and less refined.",
-						 "It's good."
-				 		],
-                "restaurants": {
-                    "olive": {
-                        "name": "Olive et Gourmando",
-								"hood": "Old Town",
-                        "moment": "breakfast, brunch, lunch",
-                        "notes": [
-                            "A great place for breakfast",
-                            "Closed on Sunday and Monday"
+    "restaurants": {
+        "quebec": [
+            {
+                "name": "Bagel Etc.",
+                "hood": "Plateau-Mont-Royal",
+                "moment": "breakfast, brunch",
+                "contact": [
+                    {
+                        "url": [
+                            {
+                                "text": "bageletc.ca",
+                                "link": "http://bageletc.ca"
+                            }
                         ],
-								"website": "http://oliveetgourmando.com",
-								"telephone": "+1 514 350 1083",
-								"address": "351 rue Saint-Paul Ouest"
-                    },
-                    "bagel": {
-                        "name": "Bagel Etc",
-								"hood": "Plateau-Mont-Royal",
-                        "moment": "breakfast, brunch",
-                        "notes": [
-									 "My most favorite breakfast place in the world."
+                        "address": [
+                            {
+                                "text": "351 rue Saint-Paul Ouest",
+                                "link": "http://goo.gl"
+                            }
                         ],
-								"website": "http://bageletc.ca",
-								"telephone": "+1 514 845 9462",
-								"address": "4320, boul. Saint-Laurent"
-                    },
-                    "viateur": {
-                        "name": "St-Viateur Bagels",
-								"hood": "Mile-End",
-                        "moment": "open 24-7",
-                        "notes": [
-									 "The best bagels in the world. Has nothing to do with American bagels. You can get cream cheese and/or salmon mousse to eat with it. I usually eat one raw before starting putting condiments on them."
-                        ],
-								"website": "http://stviateurbagel.com",
-								"telephone": "+1 514 845 9462",
-								"address": "4320, boul. Saint-Laurent"
-                    },
-                    "schwartz": {
-                        "name": "Schwartz's",
-								"hood": "Plateau-Mont-Royal",
-                        "moment": "lunch, dinner, late-night",
-                        "notes": [
-									 "Deli smoked meat sandwiches."
-                        ],
-								"website": "http://schwartzsdeli.com",
-								"telephone": "+1 514 842 4813",
-								"address": "3895, boul. Saint-Laurent"
-                    },
-                    "foodlab": {
-                        "name": "Labo culinaire / Foodlab (SAT)",
-								"hood": "Downtown",
-                        "moment": "dinner, late-night",
-                        "notes": [
-									 "Menu changes every 2 weeks."
-                        ],
-								"website": "http://sat.qc.ca/fr/foodlab",
-								"telephone": "+1 514 844 2033",
-								"address": "1201, boul. Saint-Laurent"
+                        "phone": "+1 514 845 9462"
                     }
-                }
+                ],
+                "notes": [
+                    "My most favorite breakfast place in the world.",
+                    "It is good."
+                ]
             },
-            "poutine": {
-                "name": "Poutine (<em>québécois</em> delicacy)",
-                "about": [
-						 "Fries + gravy + cheese curds"
-				 	],
-                "restaurants": {
-                    "banquise": {
-                        "name": "La Banquise",
-								"hood": "Plateau-Mont-Royal",
-                        "moment": "preferably when drunk or hungover",
-                        "notes": [
-                            "The most diverse."
+            {}
+        ],
+        "france": [
+            {
+                "name": "L&rsquo;Express",
+                "hood": "Plateau-Mont-Royal",
+                "moment": "dinner",
+                "contact": [
+                    {
+                        "url": [
+                            {
+                                "text": "restaurantlexpress.ca",
+                                "link": "http://restaurantlexpress.ca"
+                            }
                         ],
-								"website": "http://restolabanquise.com",
-								"telephone": "+1 514 525 2415",
-								"address": "994, rue Rachel Est"
+                        "address": [
+                            {
+                                "text": "3927, rue Saint-Denis",
+                                "link": "http://goo.gl"
+                            }
+                        ],
+                        "phone": "+1 514 845 5333"
                     }
-                }
+                ],
+                "notes": [
+                    "Typical French bistrot. Absolutely have to taste the bone marrow."
+                ]
             },
-            "france": {
-                "name": "French",
-                "about": [
-						 "Oui oui oui."
-				 	],
-                "restaurants": {
-                    "express": {
-                        "name": "L&rsquo;Express",
-								"hood": "Plateau-Mont-Royal",
-                        "moment": "dinner",
-                        "notes": [
-                            "Typical French bistrot. Absolutely have to taste the bone marrow."
-                        ],
-								"website": "http://restaurantlexpress.ca",
-								"telephone": "+1 514 845 5333",
-								"address": "3927, rue Saint-Denis"
-                    },
-                    "lemeac": {
-                        "name": "Leméac",
-								"hood": "Plateau-Mont-Royal",
-                        "moment": "dinner",
-                        "notes": [
-                            "Becomes cheap after 10 PM."
-                        ],
-								"website": "http://restaurantlemeac.com",
-								"telephone": "+1 514 270 0999",
-								"address": "1045, rue Laurier Ouest"
-                    }
-                }
-            }
-        }
-    },
-    "places": {}
+            {}
+        ]
+    }
 }
