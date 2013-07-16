@@ -1,61 +1,36 @@
 {
-    "restaurants": {
+    "cuisines": {
         "quebec": [
             {
-                "name": "Bagel Etc.",
-                "hood": "Plateau-Mont-Royal",
-                "moment": "breakfast, brunch",
-                "contact": [
-                    {
-                        "url": [
-                            {
-                                "text": "bageletc.ca",
-                                "link": "http://bageletc.ca"
-                            }
-                        ],
-                        "address": [
-                            {
-                                "text": "351 rue Saint-Paul Ouest",
-                                "link": "http://goo.gl"
-                            }
-                        ],
-                        "phone": "+1 514 845 9462"
-                    }
-                ],
-                "notes": [
-                    "My most favorite breakfast place in the world.",
-                    "It is good."
-                ]
+                "name": "St-Viateur Bagels",
+                "hood": "Mile-End",
+                "moment": "open 24-7",
+                "url": {
+                    "text": "stviateurbagel.com",
+                    "link": "http://stviateurbagel.com"
+                },
+                "address": {
+                    "text": "4320, boul. Saint-Laurent",
+                    "link": "http://goo.gl"
+                },
+                "phone": "+1 514 845 9462",
+                "notes": "The best bagels in the world. Has nothing to do with American bagels. You can get cream cheese and/or salmon mousse to eat with it. I usually eat one raw before starting putting condiments on them."
             },
-            {}
-        ],
-        "france": [
             {
-                "name": "L&rsquo;Express",
-                "hood": "Plateau-Mont-Royal",
-                "moment": "dinner",
-                "contact": [
-                    {
-                        "url": [
-                            {
-                                "text": "restaurantlexpress.ca",
-                                "link": "http://restaurantlexpress.ca"
-                            }
-                        ],
-                        "address": [
-                            {
-                                "text": "3927, rue Saint-Denis",
-                                "link": "http://goo.gl"
-                            }
-                        ],
-                        "phone": "+1 514 845 5333"
-                    }
-                ],
-                "notes": [
-                    "Typical French bistrot. Absolutely have to taste the bone marrow."
-                ]
-            },
-            {}
+                "name": "Schwartz's",
+                "hood": "Mile-End",
+                "moment": "open 24-7",
+                "url": {
+                    "text": "stviateurbagel.com",
+                    "link": "http://stviateurbagel.com"
+                },
+                "address": {
+                    "text": "4320, boul. Saint-Laurent",
+                    "link": "http://goo.gl"
+                },
+                "phone": "+1 514 845 9462",
+                "notes": "The best bagels in the world. Has nothing to do with American bagels. You can get cream cheese and/or salmon mousse to eat with it. I usually eat one raw before starting putting condiments on them."
+            }
         ]
     }
 }
