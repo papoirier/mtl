@@ -86,22 +86,27 @@ $(document).ready(function() {
 		// section title
 		$("#stay").append("<div class=\"title row\"><div class=\"span12\"><h1>" + data.stay.title);
 		
-		$("#stay").append("<div class=\"plateau\">");
+		$("#stay").append("<div class=\"neighbourhoods\">");
 		
-		// Poutine --------------------------------------
-		
-		//$("#stay > .plateau").append("<div class=\"section_title row\"><div class=\"span12\"><h3>" + data.stay.hoods.name);
-		
-		$("#stay > .plateau").append("<div class=\"row first\">");
-		for (var i = 0; i < data.stay.hoods.length; i++) {
-			$("#stay > .plateau > .first").append("<div class=\"span4 block" + i + "\">");
-			$("#stay > .plateau > .first > .block" + i).append("<h5>" + data.stay.hoods[i].name);
+		function hoodData(rowNumber) {
+			$("#stay > .neighbourhoods > ." + rowNumber).append("<div class=\"span4 block" + i + "\">");
+			$("#stay > .neighbourhoods > ." + rowNumber + " > .block" + i).append("<h5>" + data.stay.hoods[i].name);
 			for (var j = 0; j < data.stay.hoods[i].about.length; j++) {
-				$("#stay > .plateau > .first > .block" + i).append("<p>" + data.stay.hoods[i].about[j]);
+				$("#stay > .neighbourhoods > ." + rowNumber + " > .block" + i).append("<p>" + data.stay.hoods[i].about[j]);
 			}
 		};
 		
-				
+		$("#stay > .neighbourhoods").append("<div class=\"row first\">");
+		for (var i = 0; i < 3; i++) {
+			hoodData("first");
+		};
+		
+		$("#stay > .neighbourhoods").append("<div class=\"row second\">");
+		for (var i = 3; i < 6; i++) {
+			hoodData("second");
+		};
+		
+		// DRINK ------------------------------------------------------------------------------------------------------------------------
 		
 	});
 });
