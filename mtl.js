@@ -85,14 +85,24 @@ $(document).ready(function() {
 		
 		// section title
 		$("#stay").append("<div class=\"title row\"><div class=\"span12\"><h1>" + data.stay.title);
+		$("#stay").append("<div class=\"title row\"><div class=\"span12\"><h4>" + data.stay.description);
 		
 		$("#stay").append("<div class=\"neighbourhoods\">");
 		
 		function hoodData(rowNumber) {
 			$("#stay > .neighbourhoods > ." + rowNumber).append("<div class=\"span4 block" + i + "\">");
 			$("#stay > .neighbourhoods > ." + rowNumber + " > .block" + i).append("<h5>" + data.stay.hoods[i].name);
-			for (var j = 0; j < data.stay.hoods[i].about.length; j++) {
-				$("#stay > .neighbourhoods > ." + rowNumber + " > .block" + i).append("<p>" + data.stay.hoods[i].about[j]);
+			$("#stay > .neighbourhoods > ." + rowNumber + " > .block" + i).append("<img src=\"img/" + data.stay.hoods[i].mapImage + "\">");
+			
+			$("#stay > .neighbourhoods > ." + rowNumber + " > .block" + i).append("<div class=\"corners\"><h5>Street corners</h5><ul>");
+			for (var j = 0; j < data.stay.hoods[i].corners.length; j++) {
+				$("#stay > .neighbourhoods > ." + rowNumber + " > .block" + i + " > .corners > ul").append("<li>SE: " + data.stay.hoods[i].corners[j].se);
+				$("#stay > .neighbourhoods > ." + rowNumber + " > .block" + i + " > .corners > ul").append("<li>SW: " + data.stay.hoods[i].corners[j].sw);
+				$("#stay > .neighbourhoods > ." + rowNumber + " > .block" + i + " > .corners > ul").append("<li>NE: " + data.stay.hoods[i].corners[j].ne);
+				$("#stay > .neighbourhoods > ." + rowNumber + " > .block" + i + " > .corners > ul").append("<li>NW: " + data.stay.hoods[i].corners[j].nw);
+			}
+			for (var k = 0; k < data.stay.hoods[i].about.length; k++) {
+				$("#stay > .neighbourhoods > ." + rowNumber + " > .block" + i).append("<p>" + data.stay.hoods[i].about[k]);
 			}
 		};
 		
