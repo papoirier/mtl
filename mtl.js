@@ -112,11 +112,33 @@ $(document).ready(function() {
 		};
 		
 		$("#stay > .neighbourhoods").append("<div class=\"row second\">");
-		for (var i = 3; i < 6; i++) {
+		for (var i = 3; i < 5; i++) {
 			hoodData("second");
 		};
 		
+		// TRANSPORT --------------------------------------------------------------------------------------------------------------------
+		
+		// section title
+		$("#transport").append("<div class=\"title row\"><div class=\"span12\"><h1>" + data.transport.title);
+		$("#transport").append("<div class=\"title row\"><div class=\"span12\"><h4>" + data.transport.description);
+		
+		$("#transport").append("<div class=\"move\">");
+		
 		// DRINK ------------------------------------------------------------------------------------------------------------------------
+		
+		// section title
+		$("#drink").append("<div class=\"title row\"><div class=\"span12\"><h1>" + data.drink.title);
+		$("#drink").append("<div class=\"title row\"><div class=\"span12\"><h4>" + data.drink.description);
+		
+		$("#drink").append("<div class=\"bars\">");
+		
+		// SIGHTS ------------------------------------------------------------------------------------------------------------------------
+		
+		// section title
+		$("#sights").append("<div class=\"title row\"><div class=\"span12\"><h1>" + data.sights.title);
+		$("#sights").append("<div class=\"title row\"><div class=\"span12\"><h4>" + data.sights.description);
+		
+		$("#sights").append("<div class=\"places\">");
 		
 	});
 });

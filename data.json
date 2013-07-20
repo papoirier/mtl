@@ -262,5 +262,74 @@
                 ]
             }
         ]
-    }
+    },
+    "transport": {
+        "title": "How to get around",
+		  "description": "All roads lead somewhere.",
+        "bars": [
+           {
+               "name": "Plan B",
+               "hood": "Plateau-Mont-Royal",
+               "moment": "happy hour, late-night",
+               "url": {
+                   "text": "restaurantlexpress.ca",
+                   "link": "http://restaurantlexpress.ca"
+               },
+               "address": {
+                   "text": "3927, rue Saint-Denis",
+                   "link": "http://goo.gl"
+               },
+               "phone": "+1 514 845 5333",
+               "notes": [
+                   "Great patio in the back."
+               ]
+           }
+			]
+		},
+	 "drink": {
+        "title": "Where to have a drink",
+		  "description": "Because one needs to hydrate.",
+        "bars": [
+           {
+               "name": "Plan B",
+               "hood": "Plateau-Mont-Royal",
+               "moment": "happy hour, late-night",
+               "url": {
+                   "text": "restaurantlexpress.ca",
+                   "link": "http://restaurantlexpress.ca"
+               },
+               "address": {
+                   "text": "3927, rue Saint-Denis",
+                   "link": "http://goo.gl"
+               },
+               "phone": "+1 514 845 5333",
+               "notes": [
+                   "Great patio in the back."
+               ]
+           }
+			]
+		},
+      "sights": {
+          "title": "Where to see the sights",
+	  		  "description": "Because there is some sweet architecture in this town.",
+	          "bars": [
+	             {
+	                 "name": "Plan B",
+	                 "hood": "Plateau-Mont-Royal",
+	                 "moment": "happy hour, late-night",
+	                 "url": {
+	                     "text": "restaurantlexpress.ca",
+	                     "link": "http://restaurantlexpress.ca"
+	                 },
+	                 "address": {
+	                     "text": "3927, rue Saint-Denis",
+	                     "link": "http://goo.gl"
+	                 },
+	                 "phone": "+1 514 845 5333",
+	                 "notes": [
+	                     "Great patio in the back."
+	                 ]
+	             }
+	  			]
+  		}
 }
