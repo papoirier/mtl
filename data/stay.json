@@ -1,0 +1,89 @@
+{
+   "stay": {
+       "title": "Where to stay",
+	  "description": "The two major axis are Saint-Laurent Boulevard and Sainte-Catherine Street.",
+       "hoods": [
+           {
+               "name": "Plateau-Mont-Royal",
+				 "mapImage": "plateau.png",
+               "corners": [
+					 {
+						 "se": "St-Laurent / Sherbrooke",
+						 "sw": "Ste-Cath / Rehne",
+						 "ne": "St-Laurent / Sherbrooke",
+						 "nw": "St-Laurent / Sherbrooke"
+					 }
+               ],
+               "about": [
+                   "Some text about the neighbourhood.",
+                   "Some more text about the neighbourhood."
+               ]
+           },
+           {
+               "name": "Mile-End",
+				 "mapImage": "plateau.png",
+               "corners": [
+					 {
+						 "se": "St-Laurent / Sherbrooke",
+						 "sw": "Ste-Cath / Rehne",
+						 "ne": "St-Laurent / Sherbrooke",
+						 "nw": "St-Laurent / Sherbrooke"
+					 }
+               ],
+               "about": [
+					 "Technically, the Mile-End is part of the Plateau-Mont-Royal neighborhood.",
+					 "The \"artist\" neighbourhood, in many ways, since the city maintains rents low-ish and reserves spaces and building even for artists to stay and keep their studios there.",
+					 "Some more text about the neighbourhood."
+               ]
+           },
+           {
+               "name": "Petite Italie",
+				 "mapImage": "plateau.png",
+               "corners": [
+					 {
+						 "se": "St-Laurent / Sherbrooke",
+						 "sw": "Ste-Cath / Rehne",
+						 "ne": "St-Laurent / Sherbrooke",
+						 "nw": "St-Laurent / Sherbrooke"
+					 }
+               ],
+               "about": [
+                  "Some text about the neighbourhood.",
+                  "Some more text about the neighbourhood."
+               ]
+           },
+           {
+               "name": "Saint-Henri / Petite Bourgogne",
+				 "mapImage": "plateau.png",
+               "corners": [
+					 {
+						 "se": "St-Laurent / Sherbrooke",
+						 "sw": "Ste-Cath / Rehne",
+						 "ne": "St-Laurent / Sherbrooke",
+						 "nw": "St-Laurent / Sherbrooke"
+					 }
+               ],
+               "about": [
+                  "Some text about the neighbourhood.",
+                  "Some more text about the neighbourhood."
+               ]
+           },
+           {
+               "name": "Vieux-Montréal (Old Town)",
+				 "mapImage": "plateau.png",
+               "corners": [
+					 {
+						 "se": "St-Laurent / Sherbrooke",
+						 "sw": "Ste-Cath / Rehne",
+						 "ne": "St-Laurent / Sherbrooke",
+						 "nw": "St-Laurent / Sherbrooke"
+					 }
+               ],
+               "about": [
+                  "Some text about the neighbourhood.",
+                  "Some more text about the neighbourhood."
+               ]
+           }
+       ]
+   }
+}

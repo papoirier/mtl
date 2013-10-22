@@ -131,6 +131,34 @@ $(document).ready(function() {
 		$("#drink").append("<div class=\"title row\"><div class=\"span12\"><h4>" + data.drink.description);
 		
 		$("#drink").append("<div class=\"bars\">");
+
+		function drinkData(rowNumber) {
+			$("#drink > .bars > ." + rowNumber).append("<div class=\"span4 block" + i + "\">");
+			$("#drink > .bars > ." + rowNumber + " > .block" + i).append("<h5>" + data.drink.bars[i].name);
+			$("#drink > .bars > ." + rowNumber + " > .block" + i).append("<p>" + data.drink.bars[i].hood);
+			$("#drink > .bars > ." + rowNumber + " > .block" + i).append("<p>" + data.drink.bars[i].moment);
+			for (var j = 0; j < data.drink.bars[i].notes.length; j++) {
+				$("#drink > .bars > ." + rowNumber + " > .block" + i).append("<p>" + data.drink.bars[i].notes[j]);
+			}
+		// 	$("#drink > .quebec > ." + rowNumber + " > .block" + i).append("<ul>");
+		// 	$("#drink > .quebec > ." + rowNumber + " > .block" + i + " > ul").append("<li><a href=\"" + data.drink.cuisines.quebec.restaurants[i].url.link + "\">" + data.drink.cuisines.quebec.restaurants[i].url.text);
+		// 	$("#drink > .quebec > ." + rowNumber + " > .block" + i + " > ul").append("<li><a href=\"" + data.drink.cuisines.quebec.restaurants[i].address.link + "\">" + data.drink.cuisines.quebec.restaurants[i].address.text);
+		// 	$("#drink > .quebec > ." + rowNumber + " > .block" + i + " > ul").append("<li>" + data.drink.cuisines.quebec.restaurants[i].phone);
+		};
+		
+		//$("#drink > .bars > .section_title > .span12").append("<h4>" + data.drink.bars.description);
+		
+		$("#drink > .bars").append("<div class=\"row first\">");
+		for (var i = 0; i < 3; i++) {
+			drinkData("first");
+		};
+		
+		$("#drink > .bars").append("<div class=\"row second\">");
+		for (var i = 3; i < 6; i++) {
+			drinkData("second");
+		};
+
+
 		
 		// SIGHTS ------------------------------------------------------------------------------------------------------------------------
 		
