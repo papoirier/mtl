@@ -5,7 +5,7 @@ $(document).ready(function() {
 		// EAT ------------------------------------------------------------------------------------------------------------------------
 		
 		// section title
-		$("#eat").append("<div class=\"title row\"><div class=\"span12\"><h1>" + data.eat.title);
+		$("#eat").append("<div class=\"title row\"><div class=\"col-md-12\"><h1>" + data.eat.title);
 		
 		$("#eat").append("<div class=\"quebec\">").html();
 		$("#eat").append("<div class=\"france\">");
@@ -14,7 +14,7 @@ $(document).ready(function() {
 		// Québec --------------------------------------
 		
 		function quebecData(rowNumber) {
-			$("#eat > .quebec > ." + rowNumber).append("<div class=\"span4 block" + i + "\">");
+			$("#eat > .quebec > ." + rowNumber).append("<div class=\"col-md-4 block" + i + "\">");
 			$("#eat > .quebec > ." + rowNumber + " > .block" + i).append("<h5>" + data.eat.cuisines.quebec.restaurants[i].name);
 			$("#eat > .quebec > ." + rowNumber + " > .block" + i).append("<p>" + data.eat.cuisines.quebec.restaurants[i].hood);
 			$("#eat > .quebec > ." + rowNumber + " > .block" + i).append("<p>" + data.eat.cuisines.quebec.restaurants[i].moment);
@@ -27,8 +27,8 @@ $(document).ready(function() {
 			$("#eat > .quebec > ." + rowNumber + " > .block" + i + " > ul").append("<li>" + data.eat.cuisines.quebec.restaurants[i].phone);
 		};
 		
-		$("#eat > .quebec").append("<div class=\"section_title row\"><div class=\"span12\"><h3>" + data.eat.cuisines.quebec.region);
-		$("#eat > .quebec > .section_title > .span12").append("<h4>" + data.eat.cuisines.quebec.description);
+		$("#eat > .quebec").append("<div class=\"section_title row\"><div class=\"col-md-12\"><h3>" + data.eat.cuisines.quebec.region);
+		$("#eat > .quebec > .section_title > .col-md-12").append("<h4>" + data.eat.cuisines.quebec.description);
 		
 		$("#eat > .quebec").append("<div class=\"row first\">");
 		for (var i = 0; i < 3; i++) {
@@ -42,12 +42,12 @@ $(document).ready(function() {
 		
 		// France --------------------------------------
 		
-		$("#eat > .france").append("<div class=\"section_title row\"><div class=\"span12\"><h3>" + data.eat.cuisines.france.region);
-		$("#eat > .france > .section_title > .span12").append("<h4>" + data.eat.cuisines.france.description);
+		$("#eat > .france").append("<div class=\"section_title row\"><div class=\"col-md-12\"><h3>" + data.eat.cuisines.france.region);
+		$("#eat > .france > .section_title > .col-md-12").append("<h4>" + data.eat.cuisines.france.description);
 		
 		$("#eat > .france").append("<div class=\"row first\">");
 		for (var i = 0; i < data.eat.cuisines.france.restaurants.length; i++) {
-			$("#eat > .france > .first").append("<div class=\"span4 block" + i + "\">");
+			$("#eat > .france > .first").append("<div class=\"col-md-4 block" + i + "\">");
 			$("#eat > .france > .first > .block" + i).append("<h5>" + data.eat.cuisines.france.restaurants[i].name);
 			$("#eat > .france > .first > .block" + i).append("<p>" + data.eat.cuisines.france.restaurants[i].hood);
 			$("#eat > .france > .first > .block" + i).append("<p>" + data.eat.cuisines.france.restaurants[i].moment);
@@ -62,12 +62,12 @@ $(document).ready(function() {
 		
 		// Poutine --------------------------------------
 		
-		$("#eat > .poutine").append("<div class=\"section_title row\"><div class=\"span12\"><h3>" + data.eat.cuisines.poutine.region);
-		$("#eat > .poutine > .section_title > .span12").append("<h4>" + data.eat.cuisines.poutine.description);
+		$("#eat > .poutine").append("<div class=\"section_title row\"><div class=\"col-md-12\"><h3>" + data.eat.cuisines.poutine.region);
+		$("#eat > .poutine > .section_title > .col-md-12").append("<h4>" + data.eat.cuisines.poutine.description);
 		
 		$("#eat > .poutine").append("<div class=\"row first\">");
 		for (var i = 0; i < data.eat.cuisines.poutine.restaurants.length; i++) {
-			$("#eat > .poutine > .first").append("<div class=\"span4 block" + i + "\">");
+			$("#eat > .poutine > .first").append("<div class=\"col-md-4 block" + i + "\">");
 			$("#eat > .poutine > .first > .block" + i).append("<h5>" + data.eat.cuisines.poutine.restaurants[i].name);
 			$("#eat > .poutine > .first > .block" + i).append("<p>" + data.eat.cuisines.poutine.restaurants[i].hood);
 			$("#eat > .poutine > .first > .block" + i).append("<p>" + data.eat.cuisines.poutine.restaurants[i].moment);
@@ -84,13 +84,13 @@ $(document).ready(function() {
 		// STAY ------------------------------------------------------------------------------------------------------------------------
 		
 		// section title
-		$("#stay").append("<div class=\"title row\"><div class=\"span12\"><h1>" + data.stay.title);
-		$("#stay").append("<div class=\"title row\"><div class=\"span12\"><h4>" + data.stay.description);
+		$("#stay").append("<div class=\"title row\"><div class=\"col-md-12\"><h1>" + data.stay.title);
+		$("#stay").append("<div class=\"title row\"><div class=\"col-md-12\"><h4>" + data.stay.description);
 		
 		$("#stay").append("<div class=\"neighbourhoods\">");
 		
 		function hoodData(rowNumber) {
-			$("#stay > .neighbourhoods > ." + rowNumber).append("<div class=\"span4 block" + i + "\">");
+			$("#stay > .neighbourhoods > ." + rowNumber).append("<div class=\"col-md-4 block" + i + "\">");
 			$("#stay > .neighbourhoods > ." + rowNumber + " > .block" + i).append("<h5>" + data.stay.hoods[i].name);
 			$("#stay > .neighbourhoods > ." + rowNumber + " > .block" + i).append("<img src=\"img/" + data.stay.hoods[i].mapImage + "\">");
 			
@@ -119,34 +119,32 @@ $(document).ready(function() {
 		// TRANSPORT --------------------------------------------------------------------------------------------------------------------
 		
 		// section title
-		$("#transport").append("<div class=\"title row\"><div class=\"span12\"><h1>" + data.transport.title);
-		$("#transport").append("<div class=\"title row\"><div class=\"span12\"><h4>" + data.transport.description);
+		$("#transport").append("<div class=\"title row\"><div class=\"col-md-12\"><h1>" + data.transport.title);
+		$("#transport").append("<div class=\"title row\"><div class=\"col-md-12\"><h4>" + data.transport.description);
 		
 		$("#transport").append("<div class=\"move\">");
 		
 		// DRINK ------------------------------------------------------------------------------------------------------------------------
 		
 		// section title
-		$("#drink").append("<div class=\"title row\"><div class=\"span12\"><h1>" + data.drink.title);
-		$("#drink").append("<div class=\"title row\"><div class=\"span12\"><h4>" + data.drink.description);
+		$("#drink").append("<div class=\"title row\"><div class=\"col-md-12\"><h1>" + data.drink.title);
+		$("#drink").append("<div class=\"title row\"><div class=\"col-md-12\"><h4>" + data.drink.description);
 		
 		$("#drink").append("<div class=\"bars\">");
 
 		function drinkData(rowNumber) {
-			$("#drink > .bars > ." + rowNumber).append("<div class=\"span4 block" + i + "\">");
+			$("#drink > .bars > ." + rowNumber).append("<div class=\"col-md-4 block" + i + "\">");
 			$("#drink > .bars > ." + rowNumber + " > .block" + i).append("<h5>" + data.drink.bars[i].name);
 			$("#drink > .bars > ." + rowNumber + " > .block" + i).append("<p>" + data.drink.bars[i].hood);
 			$("#drink > .bars > ." + rowNumber + " > .block" + i).append("<p>" + data.drink.bars[i].moment);
 			for (var j = 0; j < data.drink.bars[i].notes.length; j++) {
 				$("#drink > .bars > ." + rowNumber + " > .block" + i).append("<p>" + data.drink.bars[i].notes[j]);
 			}
-		// 	$("#drink > .quebec > ." + rowNumber + " > .block" + i).append("<ul>");
-		// 	$("#drink > .quebec > ." + rowNumber + " > .block" + i + " > ul").append("<li><a href=\"" + data.drink.cuisines.quebec.restaurants[i].url.link + "\">" + data.drink.cuisines.quebec.restaurants[i].url.text);
-		// 	$("#drink > .quebec > ." + rowNumber + " > .block" + i + " > ul").append("<li><a href=\"" + data.drink.cuisines.quebec.restaurants[i].address.link + "\">" + data.drink.cuisines.quebec.restaurants[i].address.text);
-		// 	$("#drink > .quebec > ." + rowNumber + " > .block" + i + " > ul").append("<li>" + data.drink.cuisines.quebec.restaurants[i].phone);
+			$("#drink > .bars > ." + rowNumber + " > .block" + i).append("<ul>");
+			$("#drink > .bars > ." + rowNumber + " > .block" + i + " > ul").append("<li><a href=\"" + data.drink.bars[i].url.link + "\">" + data.drink.bars[i].url.text);
+			$("#drink > .bars > ." + rowNumber + " > .block" + i + " > ul").append("<li><a href=\"" + data.drink.bars[i].address.link + "\">" + data.drink.bars[i].address.text);
+			$("#drink > .bars > ." + rowNumber + " > .block" + i + " > ul").append("<li>" + data.drink.bars[i].phone);
 		};
-		
-		//$("#drink > .bars > .section_title > .span12").append("<h4>" + data.drink.bars.description);
 		
 		$("#drink > .bars").append("<div class=\"row first\">");
 		for (var i = 0; i < 3; i++) {
@@ -163,8 +161,8 @@ $(document).ready(function() {
 		// SIGHTS ------------------------------------------------------------------------------------------------------------------------
 		
 		// section title
-		$("#sights").append("<div class=\"title row\"><div class=\"span12\"><h1>" + data.sights.title);
-		$("#sights").append("<div class=\"title row\"><div class=\"span12\"><h4>" + data.sights.description);
+		$("#sights").append("<div class=\"title row\"><div class=\"col-md-12\"><h1>" + data.sights.title);
+		$("#sights").append("<div class=\"title row\"><div class=\"col-md-12\"><h4>" + data.sights.description);
 		
 		$("#sights").append("<div class=\"places\">");
 		
