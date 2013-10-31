@@ -11,13 +11,13 @@ $(document).ready(function() {
 		$("#eat > .container").append("<div class=\"dinner\">");
 		$("#eat > .container").append("<div class=\"any_hour\">");
 		
-		// Québec --------------------------------------
+		// BREAKFAST --------------------------------------
 		
 		function breakfastData(rowNumber) {
 			$("#eat > .container > .breakfast > ." + rowNumber).append("<div class=\"col-lg-4 block" + i + "\">");
 			$("#eat > .container > .breakfast > ." + rowNumber + " > .block" + i).append("<h5>" + data.eat.cuisines.breakfast.restaurants[i].name);
 			$("#eat > .container > .breakfast > ." + rowNumber + " > .block" + i).append("<h6>" + data.eat.cuisines.breakfast.restaurants[i].hood);
-			$("#eat > .container > .breakfast > ." + rowNumber + " > .block" + i).append("<p>" + data.eat.cuisines.breakfast.restaurants[i].moment);
+			$("#eat > .container > .breakfast > ." + rowNumber + " > .block" + i).append("<p class=\"moment\">" + data.eat.cuisines.breakfast.restaurants[i].moment);
 			for (var j = 0; j < data.eat.cuisines.breakfast.restaurants[i].notes.length; j++) {
 				$("#eat > .container > .breakfast > ." + rowNumber + " > .block" + i).append("<p>" + data.eat.cuisines.breakfast.restaurants[i].notes[j]);
 			}
@@ -50,7 +50,7 @@ $(document).ready(function() {
 			$("#eat > .container > .dinner > .first").append("<div class=\"col-lg-4 block" + i + "\">");
 			$("#eat > .container > .dinner > .first > .block" + i).append("<h5>" + data.eat.cuisines.dinner.restaurants[i].name);
 			$("#eat > .container > .dinner > .first > .block" + i).append("<h6>" + data.eat.cuisines.dinner.restaurants[i].hood);
-			$("#eat > .container > .dinner > .first > .block" + i).append("<p>" + data.eat.cuisines.dinner.restaurants[i].moment);
+			$("#eat > .container > .dinner > .first > .block" + i).append("<p class=\"moment\">" + data.eat.cuisines.dinner.restaurants[i].moment);
 			for (var j = 0; j < data.eat.cuisines.dinner.restaurants[i].notes.length; j++) {
 				$("#eat > .container > .dinner > .first > .block" + i).append("<p>" + data.eat.cuisines.dinner.restaurants[i].notes[j]);
 			}
@@ -69,8 +69,8 @@ $(document).ready(function() {
 		for (var i = 0; i < data.eat.cuisines.any_hour.restaurants.length; i++) {
 			$("#eat > .container > .any_hour > .first").append("<div class=\"col-lg-4 block" + i + "\">");
 			$("#eat > .container > .any_hour > .first > .block" + i).append("<h5>" + data.eat.cuisines.any_hour.restaurants[i].name);
-			$("#eat > .container > .any_hour > .first > .block" + i).append("<p>" + data.eat.cuisines.any_hour.restaurants[i].hood);
-			$("#eat > .container > .any_hour > .first > .block" + i).append("<p>" + data.eat.cuisines.any_hour.restaurants[i].moment);
+			$("#eat > .container > .any_hour > .first > .block" + i).append("<h6>" + data.eat.cuisines.any_hour.restaurants[i].hood);
+			$("#eat > .container > .any_hour > .first > .block" + i).append("<p class=\"moment\">" + data.eat.cuisines.any_hour.restaurants[i].moment);
 			for (var j = 0; j < data.eat.cuisines.any_hour.restaurants[i].notes.length; j++) {
 				$("#eat > .container > .any_hour > .first > .block" + i).append("<p>" + data.eat.cuisines.any_hour.restaurants[i].notes[j]);
 			}
@@ -176,7 +176,7 @@ $(document).ready(function() {
 			$("#drink > .container > .bars > ." + rowNumber).append("<div class=\"col-lg-4 block" + i + "\">");
 			$("#drink > .container > .bars > ." + rowNumber + " > .block" + i).append("<h5>" + data.drink.bars[i].name);
 			$("#drink > .container > .bars > ." + rowNumber + " > .block" + i).append("<p>" + data.drink.bars[i].hood);
-			$("#drink > .container > .bars > ." + rowNumber + " > .block" + i).append("<p>" + data.drink.bars[i].moment);
+			$("#drink > .container > .bars > ." + rowNumber + " > .block" + i).append("<p class=\"moment\">" + data.drink.bars[i].moment);
 			for (var j = 0; j < data.drink.bars[i].notes.length; j++) {
 				$("#drink > .container > .bars > ." + rowNumber + " > .block" + i).append("<p>" + data.drink.bars[i].notes[j]);
 			}
