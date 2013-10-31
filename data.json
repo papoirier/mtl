@@ -2,27 +2,10 @@
     "eat": {
         "title": "Where to eat",
         "cuisines": {
-            "quebec": {
-                "region": "Québec",
-                "description": "Imagine French cuisine from 400 years ago, but more indulgent and less refined",
+            "breakfast": {
+                "region": "Breakfast",
+                "description": "Bagels E&rsquo;rr W&rsquo;rr",
                 "restaurants": [
-                    {
-                        "name": "St-Viateur Bagels",
-                        "hood": "Mile-End",
-                        "moment": "open 24-7",
-                        "url": {
-                            "text": "stviateurbagel.com",
-                            "link": "http://stviateurbagel.com"
-                        },
-                        "address": {
-                            "text": "263, rue Saint-Viateur Ouest",
-                            "link": "http://goo.gl"
-                        },
-                        "phone": "+1 514 276 8044",
-                        "notes": [
-                            "The best bagels in the world. Has nothing to do with American bagels. You can get cream cheese and/or salmon mousse to eat with it. I usually eat one raw before starting putting condiments on them."
-                        ]
-                    },
                     {
                         "name": "Bagel Etc.",
                         "hood": "Plateau-Mont-Royal",
@@ -76,24 +59,47 @@
                         ]
                     },
                     {
-                        "name": "Schwartz&rsquo;s",
+                        "name": "Laïka",
                         "hood": "Plateau-Mont-Royal",
-                        "moment": "lunch, dinner, late-night",
+                        "moment": "breakfast, brunch, drinks",
                         "url": {
-                            "text": "schwartzsdeli.com",
-                            "link": "http://schwartzsdeli.com"
+                            "text": "laikamontreal.com",
+                            "link": "www.laikamontreal.com"
                         },
                         "address": {
-                            "text": "3895, boul. Saint-Laurent",
+                            "text": "4040, boul. Saint-Laurent",
                             "link": "http://goo.gl"
                         },
-                        "phone": "+1 514 842 4813",
+                        "phone": "+1 514 842 8088",
                         "notes": [
-                            "Montréal deli-style smoked-meat sandwiches. Opposite of fancy, very straightforward and quick. Always a huge line outside. No reservations. So, so good."
+                            "Good brunch place, there&rsquo;s usually a DJ playing records, good music, good crowd, good coffee!"
                         ]
                     },
                     {
-                        "name": "Labo culinaire / Foodlab (SAT)",
+                        "name": "Café Cherrier",
+                        "hood": "Plateau-Mont-Royal",
+                        "moment": "breakfast, brunch",
+                        "url": {
+                            "text": "cafecherrier.ca",
+                            "link": "http://www.cafecherrier.ca/"
+                        },
+                        "address": {
+                            "text": "3635, rue Saint-Denis",
+                            "link": "http://goo.gl"
+                        },
+                        "phone": "+1 514 843 4308",
+                        "notes": [
+                            "Decent place if you want to eat some old classics with good baguette."
+                        ]
+                    }                  
+                ]
+            },
+            "dinner": {
+                "region": "Dinner",
+                "description": "Oui oui oui",
+                "restaurants": [
+                    {
+                        "name": "SAT Foodlab / Labo culinaire de la SAT",
                         "hood": "Downtown",
                         "moment": "dinner, late-night",
                         "url": {
@@ -104,17 +110,14 @@
                             "text": "1201, boul. Saint-Laurent",
                             "link": "http://goo.gl"
                         },
-                        "phone": "+1 514 844 2033",
+                        "phone": "+1 514 844 2033 #225",
                         "notes": [
-                            ""
+                            "The SAT (Society for Arts and Technology) is, at its core, a place where multi-disciplinary collaboration between artists — often 'digital' — and society occurs. They conducts research, host events, and happen to have one of Montréal's most fun restaurants, the Foodlab.",
+                            "As for the food, the two chefs and their small crew change the menu entirely every month. It's usually small, tapas-like plates. They also have a great 'natural' (bio-dynamic etc.) wine selection.",
+                            "The Foodlab is on the 3rd floor, and they have this pretty sweet patio, which they are currently outfitting with a giant heated yurt which will make it usable year-round.",
+                            "Tuesday to Friday, 7PM. They sometimes are open on week-ends if there is some special events going on."
                         ]
-                    }
-                ]
-            },
-            "france": {
-                "region": "France",
-                "description": "Oui oui oui",
-                "restaurants": [
+                    },
                     {
                         "name": "L&rsquo;Express",
                         "hood": "Plateau-Mont-Royal",
@@ -129,7 +132,8 @@
                         },
                         "phone": "+1 514 845 5333",
                         "notes": [
-                            "Typical French bistrot. Absolutely have to taste the bone marrow."
+                            "A typical French bistrot, this has been a Montréal institution for over 20 years. Absolutely have to taste the bone marrow.",
+                            "It's a bit hard to find as they don't have a sign. The restaurant name is written in black and white tiles on the sidewalk in front of it."
                         ]
                     },
                     {
@@ -151,10 +155,44 @@
                     }
                 ]
             },
-            "poutine": {
-                "region": "Poutine (<em>québécois</em> delicacy)",
+            "any_hour": {
+                "region": "Any and all hours",
                 "description": "Fries + gravy + cheese curds",
                 "restaurants": [
+                    {
+                        "name": "St-Viateur Bagels",
+                        "hood": "Mile-End",
+                        "moment": "open 24-7",
+                        "url": {
+                            "text": "stviateurbagel.com",
+                            "link": "http://stviateurbagel.com"
+                        },
+                        "address": {
+                            "text": "263, rue Saint-Viateur Ouest",
+                            "link": "http://goo.gl"
+                        },
+                        "phone": "+1 514 276 8044",
+                        "notes": [
+                            "The best bagels in the world. Has nothing to do with American bagels. You can get cream cheese and/or salmon mousse to eat with it. I usually eat one raw before starting putting condiments on them."
+                        ]
+                    },
+                    {
+                        "name": "Schwartz&rsquo;s",
+                        "hood": "Plateau-Mont-Royal",
+                        "moment": "lunch, dinner, late-night",
+                        "url": {
+                            "text": "schwartzsdeli.com",
+                            "link": "http://schwartzsdeli.com"
+                        },
+                        "address": {
+                            "text": "3895, boul. Saint-Laurent",
+                            "link": "http://goo.gl"
+                        },
+                        "phone": "+1 514 842 4813",
+                        "notes": [
+                            "Montréal deli-style smoked-meat sandwiches. Opposite of fancy, very straightforward and quick. Always a huge line outside. No reservations. So, so good."
+                        ]
+                    },
                     {
                         "name": "La Banquise",
                         "hood": "Plateau-Mont-Royal",
@@ -169,7 +207,7 @@
                         },
                         "phone": "+1 514 525 2415",
                         "notes": [
-                            "The most diverse."
+                            "A great spot for poutine! They have a wide selection of it and are open till 4AM I believe."
                         ]
                     }
                 ]
@@ -185,80 +223,120 @@
                 "mapImage": "plateau.png",
                 "corners": [
                     {
-                        "se": "St-Laurent / Sherbrooke",
-                        "sw": "Ste-Cath / Rehne",
-                        "ne": "St-Laurent / Sherbrooke",
-                        "nw": "St-Laurent / Sherbrooke"
+                        "se": "Sherbrooke / Papineau",
+                        "sw": "Sherbrooke / Parc",
+                        "ne": "Rosemont / Papineau",
+                        "nw": "Van Horne / Parc"
                     }
                 ],
                 "about": [
-                    "Some text about the neighbourhood.",
-                    "Some more text about the neighbourhood."
+                    "\"Le Plateau\", as Montrealers call it, has become quite the <em>bourgeois</em> neighbourhood. Not that that's a bad thing.",
+                    "A lot of people live there, there's a lot of shops and restaurants (on St-Laurent, St-Denis, Mont-Royal, Laurier, mainly), and then a ton of other ones sprinkled everywhere in the middle."
                 ]
             },
             {
                 "name": "Mile-End",
-                "mapImage": "plateau.png",
+                "mapImage": "mile-end.png",
                 "corners": [
                     {
-                        "se": "St-Laurent / Sherbrooke",
-                        "sw": "Ste-Cath / Rehne",
-                        "ne": "St-Laurent / Sherbrooke",
-                        "nw": "St-Laurent / Sherbrooke"
+                        "se": "Henri-Julien / Mont-Royal",
+                        "sw": "Hutchison / Mont-Royal",
+                        "ne": "Rosemont / Henri-Julien",
+                        "nw": "Van Horne / Hutchison"
                     }
                 ],
                 "about": [
                     "Technically, the Mile-End is part of the Plateau-Mont-Royal neighborhood.",
-                    "The \"artist\" neighbourhood, in many ways, since the city maintains rents low-ish and reserves spaces and building even for artists to stay and keep their studios there.",
+                    "Historically, it was the jewish neighborhood, then the artist neighbourhood. It has gentrified a biut in the past decade or so, but gladly the city maintains rents low-ish and reserves spaces and buildings even for artists to stay and keep their studios there, and thus keeps this neighborhood's soul in its right place."
+                ]
+            },
+            {
+                "name": "Petite Italie / Mile-Ex",
+                "mapImage": "petite-italie.png",
+                "corners": [
+                    {
+                        "se": "Van Horne / Saint-Denis",
+                        "sw": "Van Horne / Parc",
+                        "ne": "Jean-Talon / Saint-Denis",
+                        "nw": "Parc / Jean-Talon"
+                    }
+                ],
+                "about": [
+                    "Not many italians still living there, apart maybe from the old dudes (they're all dudes) that hang out at Caffè Italia.",
                     "Some more text about the neighbourhood."
                 ]
             },
             {
-                "name": "Petite Italie",
-                "mapImage": "plateau.png",
+                "name": "Petite Bourgogne",
+                "mapImage": "petite-bourgogne.png",
                 "corners": [
                     {
-                        "se": "St-Laurent / Sherbrooke",
-                        "sw": "Ste-Cath / Rehne",
-                        "ne": "St-Laurent / Sherbrooke",
-                        "nw": "St-Laurent / Sherbrooke"
+                        "se": "Notre-Dame / Guy",
+                        "sw": "Atwater / Saint-Ambroise",
+                        "ne": "Guy / Saint-Antoine",
+                        "nw": "Saint-Antoine / Atwater"
                     }
                 ],
                 "about": [
-                    "Some text about the neighbourhood.",
-                    "Some more text about the neighbourhood."
-                ]
-            },
-            {
-                "name": "Saint-Henri / Petite Bourgogne",
-                "mapImage": "plateau.png",
-                "corners": [
-                    {
-                        "se": "St-Laurent / Sherbrooke",
-                        "sw": "Ste-Cath / Rehne",
-                        "ne": "St-Laurent / Sherbrooke",
-                        "nw": "St-Laurent / Sherbrooke"
-                    }
-                ],
-                "about": [
-                    "Some text about the neighbourhood.",
-                    "Some more text about the neighbourhood."
+                    "Anything near Notre-Dame and East of Atwater is fine.",
+                    "Pretty fun, up-and-coming neighborhood. Lots of good restaurants and cafés. Notre-Dame is a nice street to walk on... You can also go walk by the Lachine canal."
                 ]
             },
             {
                 "name": "Vieux-Montréal (Old Town)",
-                "mapImage": "plateau.png",
+                "mapImage": "vieux-montreal.png",
                 "corners": [
                     {
-                        "se": "St-Laurent / Sherbrooke",
-                        "sw": "Ste-Cath / Rehne",
-                        "ne": "St-Laurent / Sherbrooke",
-                        "nw": "St-Laurent / Sherbrooke"
+                        "se": "de la Commune / Saint-Hubert",
+                        "sw": "de la Commune / de Longueuil",
+                        "ne": "Saint-Hubert / Saint-Antoine",
+                        "nw": "de Longueuil / Saint-Antoine"
                     }
                 ],
                 "about": [
-                    "Some text about the neighbourhood.",
-                    "Some more text about the neighbourhood."
+                    "Old Town can be quite touristy but is quite beautiful and has good restaurants."
+                ]
+            }
+        ],
+        "hotel_description": "Hotels, if you must.",
+        "hotels": [
+            {
+                "name": "Hôtel Le Germain",
+                "hood": "Downtown",
+                "url": {
+                    "text": "germainmontreal.com",
+                    "link": "http://www.germainmontreal.com/en/home"
+                },
+                "address": "2050, rue Mansfield",
+                "phone": "+1 877 333 2050",
+                "notes": [
+                    "Great patio in the back."
+                ]
+            },
+            {
+                "name": "Hôtel Nelligan",
+                "hood": "Vieux-Montréal",
+                "url": {
+                    "text": "hotelnelligan.com",
+                    "link": "http://www.hotelnelligan.com/index_en.php"
+                },
+                "address": "106, rue Saint-Paul Ouest",
+                "phone": "+1 877 788 2040",
+                "notes": [
+                    "Great patio in the back."
+                ]
+            },
+            {
+                "name": "Hôtel Saint-Paul",
+                "hood": "Vieux-Montréal",
+                "url": {
+                    "text": "hotelstpaul.com",
+                    "link": "http://www.hotelstpaul.com/en/home.html"
+                },
+                "address": "355, rue McGill",
+                "phone": "+1 866 380 2202",
+                "notes": [
+                    "Great patio in the back."
                 ]
             }
         ]
