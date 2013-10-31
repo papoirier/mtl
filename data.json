@@ -344,29 +344,60 @@
     "transport": {
         "title": "How to get around",
         "description": "All roads lead somewhere.",
-        "bars": [
+        "service": [
             {
-                "name": "Plan B",
-                "hood": "Plateau-Mont-Royal",
-                "moment": "happy hour, late-night",
+                "name": "STM",
+                "type": "The bus and subway service",
                 "url": {
-                    "text": "restaurantlexpress.ca",
-                    "link": "http://restaurantlexpress.ca"
+                    "text": "stm.info",
+                    "link": "http://www.stm.info/en"
                 },
-                "address": {
-                    "text": "3927, rue Saint-Denis",
-                    "link": "http://goo.gl"
-                },
-                "phone": "+1 514 845 5333",
                 "notes": [
-                    "Great patio in the back."
+                    "Subway hours are line specific. But generally it's kind of sucky like in Boston: open until 12:00-30 AM on most days, and until 1:00-30 AM on Satudays.",
+                    "There is however, and gladly, plenty of 'night' buses."
+                ]
+            },
+            {
+                "name": "Bixi",
+                "type": "The bikeshare program",
+                "url": {
+                    "text": "bixi.com",
+                    "link": "https://bixi.com/"
+                },
+                "notes": [
+                    "Bixi, Montréal's bike-sharing system, is huge! Lots of people bike in Montréal, and it's quite safe to do so. Probably the one of the safest cities to bike in North America. Lots of bike lanes, etc. But you have to respect the rules and signal properly, etc, becuase people will tell you if you don't, and the police will give you a ticket if you run a red light.",
+                    "You'll recognize the bikes as Boston's Hubway uses the same system and bike design.",
+                    "The bikes are available from April to November. Then they sleep during the winter."
+                ]
+            },
+            {
+                "name": "Taxi Co-op",
+                "type": "The taxi service Marianne's mom uses",
+                "url": {
+                    "text": "taxi-coop.com",
+                    "link": "http://taxi-coop.com"
+                },
+                "phone": "+1 514 725 1885",
+                "notes": [
+                    "They're pretty reliable."
+                ]
+            },
+            {
+                "name": "Über",
+                "type": "Black cars also roll in MTL",
+                "url": {
+                    "text": "uber.com/cities/montreal",
+                    "link": "https://www.uber.com/cities/montreal"
+                },
+                "notes": [
+                    ""
                 ]
             }
         ]
     },
     "drink": {
         "title": "Where to have a drink",
-        "description": "Because one needs to hydrate.",
+        "description": "Because one needs to hydrate. Most bars close at 3 AM.",
         "bars": [
             {
                "name": "Pullman",
@@ -387,6 +418,43 @@
                ]
            },
            {
+               "name": "Buvette chez Simone",
+               "hood": "Plateau-Mont-Royal",
+               "moment": "happy hour, late-night",
+               "url": {
+                   "text": "buvettechezsimone.com",
+                   "link": "http://buvettechezsimone.com"
+               },
+               "address": {
+                   "text": "4869, avenue du Parc",
+                   "link": "http://goo.gl"
+               },
+               "phone": "+1 514 750 6577",
+               "notes": [
+                   "Really good wine bar as well. They serve beer, too, and probably cocktails (though I'm not sure as I never order any). It's always quite packed which makes it fun. They have pretty good food, especially their cheese plates and meats.",
+                   "Opens at 4."
+               ]
+           },
+           {
+               "name": "bar big in japan",
+               "hood": "Plateau-Mont-Royal",
+               "moment": "late-night",
+               "url": {
+                   "text": "yelp.com",
+                   "link": "http://www.yelp.com/biz/big-in-japan-bar-montr%C3%A9al"
+               },
+               "address": {
+                   "text": "4175, boulevard Saint-Laurent",
+                   "link": "http://goo.gl"
+               },
+               "phone": "+1 438 380 5658",
+               "notes": [
+                   "It's the little red door written 'bar' in tiny on it.",
+                   "They have a pretty wide selection of japanese whiskeys, I believe, and serve all sorts of cocktails. It's one of those 'speakeasy' places. Quite alright.",
+                   "It was started by the folks that own the big <a href=\"http://biginjapan.ca/\">Big in Japan</a> restaurant closeby on Saint-Laurent."
+               ]
+           },
+           {
                "name": "Plan B",
                "hood": "Plateau-Mont-Royal",
                "moment": "happy hour, late-night",
@@ -401,6 +469,41 @@
                "phone": "+1 514 845 6060",
                "notes": [
                    "Great patio in the back."
+               ]
+           },
+           {
+               "name": "Baldwin",
+               "hood": "Plateau-Mont-Royal",
+               "moment": "happy hour, late-night",
+               "url": {
+                   "text": "baldwinbarmacie.com",
+                   "link": "http://baldwinbarmacie.com/"
+               },
+               "address": {
+                   "text": "115, avenue Laurier Ouest",
+                   "link": "http://goo.gl"
+               },
+               "phone": "+1 514 276 4282",
+               "notes": [
+                   "Sweet décor, full of empty brown glass pharmacy bottles (hence their 'barmacie' sub-name."
+               ]
+           },
+           {
+               "name": "Philémon",
+               "hood": "Old Town",
+               "moment": "happy hour, late-night",
+               "url": {
+                   "text": "philemonbar.com",
+                   "link": "http://www.philemonbar.com/"
+               },
+               "address": {
+                   "text": "111, rue Saint-Paul Ouest",
+                   "link": "http://goo.gl"
+               },
+               "phone": "+1 514 289 3777",
+               "notes": [
+                   "Nice place with a cool décor... I like it on weekdays, but I believe it can get a bit douchey on week-ends.",
+                   "Literally in front of Hôtel Nelligan."
                ]
            }
         ]
