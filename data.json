@@ -157,7 +157,7 @@
             },
             "any_hour": {
                 "region": "Any and all hours",
-                "description": "Fries + gravy + cheese curds",
+                "description": "Bagels + bagels + bagels + fries + gravy + cheese curds",
                 "restaurants": [
                     {
                         "name": "St-Viateur Bagels",
@@ -208,6 +208,24 @@
                         "phone": "+1 514 525 2415",
                         "notes": [
                             "A great spot for poutine! They have a wide selection of it and are open till 4AM I believe."
+                        ]
+                    },
+                    {
+                        "name": "Poutine",
+                        "hood": "All over town",
+                        "moment": "late-night, or perhaps when drunk or hungover",
+                        "url": {
+                            "text": "",
+                            "link": ""
+                        },
+                        "address": {
+                            "text": "",
+                            "link": ""
+                        },
+                        "phone": "",
+                        "notes": [
+                            "If you require food post-partying, poutine is the shit and way to go. Lots of places sell it. It's always good anywhere. It's not a thing that you want to be fancy in any way. Here's a few places that sell it:",
+                            "<a href=\"http://fritealors.com/en/\">Frites Alors!</a> &nbsp; &nbsp; <a href=\"http://restolafleur.com/Home-en-1.php\">Lafleur &nbsp; &nbsp; <a href=\"http://www.yelp.com/biz/restaurant-la-belle-province-montreal-11\">La Belle Province"
                         ]
                     }
                 ]
@@ -400,20 +418,20 @@
         "description": "Because one needs to hydrate. Most bars close at 3 AM.",
         "bars": [
             {
-               "name": "Pullman",
-               "hood": "Plateau-Mont-Royal",
+               "name": "Alexandraplatz",
+               "hood": "Mile-Ex",
                "moment": "happy hour, late-night",
                "url": {
-                   "text": "pullman-mtl.com",
-                   "link": "http://pullman-mtl.com/en/"
+                   "text": "alexandraplatzbar.com",
+                   "link": "http://www.alexandraplatzbar.com/"
                },
                "address": {
-                   "text": "3424, avenue du Parc",
+                   "text": "6731, avenue de l'Esplanade",
                    "link": "http://goo.gl"
                },
                "phone": "+1 514 288 7779",
                "notes": [
-                   "A really good wine bar, that pretty much has everything from everywhere. Though I ve not had it, their food seems pretty good too. About that: you have to eat something — anything — when you order wine, which is fine, but kind of blows if you're not hungry or have already eaten.",
+                   "Pretty sweet bar. It's basically a bunch of picnic tables set up in an old garage. Good wines and beers and cocktails (I assume).",
                    "Closes at 1:00 AM."
                ]
            },
@@ -433,6 +451,42 @@
                "notes": [
                    "Really good wine bar as well. They serve beer, too, and probably cocktails (though I'm not sure as I never order any). It's always quite packed which makes it fun. They have pretty good food, especially their cheese plates and meats.",
                    "Opens at 4."
+               ]
+           },
+           {
+               "name": "Vices & Versa",
+               "hood": "Petite-Italie",
+               "moment": "late-night",
+               "url": {
+                   "text": "vicesetversa.com",
+                   "link": "http://www.vicesetversa.com/"
+               },
+               "address": {
+                   "text": "6631, boulevard St-Laurent",
+                   "link": "http://goo.gl"
+               },
+               "phone": "+1 514 272 2498",
+               "notes": [
+                   "Really cool bar. They have a pretty wide selection of beers from Québec.",
+                   "In the summertime, they have an amazing patio in the back."
+               ]
+           },
+           {
+               "name": "Pullman",
+               "hood": "Plateau-Mont-Royal",
+               "moment": "happy hour, late-night",
+               "url": {
+                   "text": "pullman-mtl.com",
+                   "link": "http://pullman-mtl.com/en/"
+               },
+               "address": {
+                   "text": "3424, avenue du Parc",
+                   "link": "http://goo.gl"
+               },
+               "phone": "+1 514 288 7779",
+               "notes": [
+                   "A really good wine bar, that pretty much has everything from everywhere. Though I ve not had it, their food seems pretty good too. About that: you have to eat something — anything — when you order wine, which is fine, but kind of blows if you're not hungry or have already eaten.",
+                   "Closes at 1:00 AM."
                ]
            },
            {
