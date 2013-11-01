@@ -564,21 +564,54 @@
     },
     "sights": {
         "title": "Where to see the sights",
-        "description": "Because there is some sweet architecture in this town.",
+        "description": "Because there is some sweet things to see in this town.",
         "places": [
             {
-                "name": "Plan B",
-                "hood": "Plateau-Mont-Royal",
+                "name": "Biosphère",
+                "hood": "Île-Sainte-Hélène",
                 "url": {
-                    "text": "restaurantlexpress.ca",
-                    "link": "http://restaurantlexpress.ca"
+                    "text": "ec.gc.ca/biosphere",
+                    "link": "http://www.ec.gc.ca/biosphere/default.asp?lang=En&n=3C2E8507-1"
                 },
                 "address": {
-                    "text": "3927, rue Saint-Denis",
-                    "link": "http://goo.gl"
+                    "text": "160, chemin Tour-de-l'Isle",
+                    "link": ""
                 },
                 "notes": [
-                    "Great patio in the back."
+                    "One of Buckminster Fuller's masterpieces. The location is interesting, too. It's on a man-made island, which was 'built' from digging up the Subway tunnels and for the world expo that happend in Montréal in 1967. It is now an Environmetal Museum.",
+                    "To get there: take the Métro's Yellow line and get off at Jean-Drapeau Station."
+                ]
+            },
+            {
+                "name": "Habitat &lsquo;67",
+                "hood": "Old Town -ish",
+                "url": {
+                    "text": "",
+                    "link": ""
+                },
+                "address": {
+                    "text": "",
+                    "link": ""
+                },
+                "notes": [
+                    "",
+                    ""
+                ]
+            },
+            {
+                "name": "Olympic Stadium",
+                "hood": "Montréal-Nord",
+                "url": {
+                    "text": "",
+                    "link": ""
+                },
+                "address": {
+                    "text": "",
+                    "link": ""
+                },
+                "notes": [
+                    "If you stand on Mont-Royal avenue, and look North-East, there's the stadium!",
+                    "Not worth going all the way there to see it, but it kind of looks like an inverted Starship Enterprise, which is cool."
                 ]
             }
         ]
