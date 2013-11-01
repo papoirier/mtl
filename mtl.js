@@ -227,10 +227,34 @@ $(document).ready(function() {
 		// SIGHTS ------------------------------------------------------------------------------------------------------------------------
 		
 		// section title
-		$("#sights").append("<div class=\"title row\"><div class=\"col-md-12\"><h1>" + data.sights.title);
-		$("#sights").append("<div class=\"title row\"><div class=\"col-md-12\"><h4>" + data.sights.description);
+		$("#sights > .container").append("<div class=\"title row\"><div class=\"col-md-12\"><h1>" + data.sights.title);
+		$("#sights > .container").append("<div class=\"title row\"><div class=\"col-md-12\"><h4>" + data.sights.description);
 		
-		$("#sights").append("<div class=\"places\">");
+		$("#sights > .container").append("<div class=\"places\">");
+
+		function sightsData(rowNumber) {
+			$("#sights > .container > .places > ." + rowNumber).append("<div class=\"col-md-4 block" + i + "\">");
+			$("#sights > .container > .places > ." + rowNumber + " > .block" + i).append("<h5>" + data.sights.places[i].name);
+			$("#sights > .container > .places > ." + rowNumber + " > .block" + i).append("<h6>" + data.sights.places[i].hood);
+			//$("#sights > .container > .places > ." + rowNumber + " > .block" + i).append("<p class=\"moment\">" + data.sights.places[i].moment);
+			for (var j = 0; j < data.sights.places[i].notes.length; j++) {
+				$("#sights > .container > .places > ." + rowNumber + " > .block" + i).append("<p>" + data.sights.places[i].notes[j]);
+			}
+			$("#sights > .container > .places > ." + rowNumber + " > .block" + i).append("<ul>");
+			$("#sights > .container > .places > ." + rowNumber + " > .block" + i + " > ul").append("<li><a href=\"" + data.sights.places[i].url.link + "\">" + data.sights.places[i].url.text);
+			$("#sights > .container > .places > ." + rowNumber + " > .block" + i + " > ul").append("<li>" + data.sights.places[i].address.text);
+			//$("#sights > .container > .places > ." + rowNumber + " > .block" + i + " > ul").append("<li>" + data.sights.places[i].phone);
+		};
+		
+		$("#sights > .container > .places").append("<div class=\"row first\">");
+		for (var i = 0; i < 3; i++) {
+			sightsData("first");
+		};
+		
+		// $("#sights > .container > .places").append("<div class=\"row second\">");
+		// for (var i = 3; i < 6; i++) {
+		// 	sightsData("second");
+		// };
 		
 	});
 });

@@ -565,11 +565,10 @@
     "sights": {
         "title": "Where to see the sights",
         "description": "Because there is some sweet architecture in this town.",
-        "bars": [
+        "places": [
             {
                 "name": "Plan B",
                 "hood": "Plateau-Mont-Royal",
-                "moment": "happy hour, late-night",
                 "url": {
                     "text": "restaurantlexpress.ca",
                     "link": "http://restaurantlexpress.ca"
@@ -578,7 +577,6 @@
                     "text": "3927, rue Saint-Denis",
                     "link": "http://goo.gl"
                 },
-                "phone": "+1 514 845 5333",
                 "notes": [
                     "Great patio in the back."
                 ]
